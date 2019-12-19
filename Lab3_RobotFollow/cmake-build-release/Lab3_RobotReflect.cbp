@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Lab3_RobotReflect"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="robot">
+				<Option working_dir="C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 robot"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="robot-atmega328p.elf">
+				<Option output="C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/robot-atmega328p.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/ProgramData/WinAVR-20100110/avr/include"/>
+					<Add directory="C:/ProgramData/WinAVR-20100110/lib/gcc/avr/4.3.3/include"/>
+					<Add directory="C:/ProgramData/WinAVR-20100110/lib/gcc/avr/4.3.3/include-fixed"/>
+					<Add directory="C:/ProgramData/WinAVR-20100110/avr/lib"/>
+					<Add directory="c:\programdata\winavr-20100110\bin\../lib/gcc/avr/4.3.3/include"/>
+					<Add directory="c:\programdata\winavr-20100110\bin\../lib/gcc/avr/4.3.3/include-fixed"/>
+					<Add directory="c:/programdata/winavr-20100110/lib/gcc/../../lib/gcc/avr/4.3.3/include"/>
+					<Add directory="c:/programdata/winavr-20100110/lib/gcc/../../lib/gcc/avr/4.3.3/include-fixed"/>
+					<Add directory="c:/programdata/winavr-20100110/lib/gcc/../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 robot-atmega328p.elf"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="robot-atmega328p.elf/fast">
+				<Option output="C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/robot-atmega328p.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/ProgramData/WinAVR-20100110/avr/include"/>
+					<Add directory="C:/ProgramData/WinAVR-20100110/lib/gcc/avr/4.3.3/include"/>
+					<Add directory="C:/ProgramData/WinAVR-20100110/lib/gcc/avr/4.3.3/include-fixed"/>
+					<Add directory="C:/ProgramData/WinAVR-20100110/avr/lib"/>
+					<Add directory="c:\programdata\winavr-20100110\bin\../lib/gcc/avr/4.3.3/include"/>
+					<Add directory="c:\programdata\winavr-20100110\bin\../lib/gcc/avr/4.3.3/include-fixed"/>
+					<Add directory="c:/programdata/winavr-20100110/lib/gcc/../../lib/gcc/avr/4.3.3/include"/>
+					<Add directory="c:/programdata/winavr-20100110/lib/gcc/../../lib/gcc/avr/4.3.3/include-fixed"/>
+					<Add directory="c:/programdata/winavr-20100110/lib/gcc/../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 robot-atmega328p.elf/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/s28297/CLionProjects/Lab3_RobotReflect/src/main.c">
+			<Option target="robot-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/s28297/CLionProjects/Lab3_RobotReflect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/s28297/CLionProjects/Lab3_RobotReflect/avr.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

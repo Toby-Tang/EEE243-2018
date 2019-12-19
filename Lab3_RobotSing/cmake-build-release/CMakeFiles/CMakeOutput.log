@@ -1,0 +1,29 @@
+The target system is: Generic -  - avr
+The host system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/ProgramData/WinAVR-20100110/bin/avr-gcc.exe 
+Build flags: -mmcu=atmega328p;-DF_CPU=2000000;-Os
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "U:/Second Year/EEE243/Lab3_RobotSing/cmake-build-release/CMakeFiles/3.12.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: U:/Second Year/EEE243/Lab3_RobotSing/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_b3dc5/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b3dc5.dir\build.make CMakeFiles/cmTC_b3dc5.dir/build
+mingw32-make.exe[1]: Entering directory 'U:/Second Year/EEE243/Lab3_RobotSing/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3dc5.dir/testCCompiler.c.obj
+C:\ProgramData\WinAVR-20100110\bin\avr-gcc.exe  -IC:\ProgramData\WinAVR-20100110\avr\include -IC:\ProgramData\WinAVR-20100110\lib\gcc\avr\4.3.3\include -IC:\ProgramData\WinAVR-20100110\lib\gcc\avr\4.3.3\include-fixed -IC:\ProgramData\WinAVR-20100110\avr\lib  -mmcu=atmega328p -DF_CPU=2000000 -Os    -o CMakeFiles\cmTC_b3dc5.dir\testCCompiler.c.obj   -c "U:\Second Year\EEE243\Lab3_RobotSing\cmake-build-release\CMakeFiles\CMakeTmp\testCCompiler.c"
+Linking C executable cmTC_b3dc5
+"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b3dc5.dir\link.txt --verbose=1
+C:\ProgramData\WinAVR-20100110\bin\avr-gcc.exe -mmcu=atmega328p -DF_CPU=2000000 -Os  -mmcu=atmega328p   CMakeFiles/cmTC_b3dc5.dir/testCCompiler.c.obj  -o cmTC_b3dc5 
+mingw32-make.exe[1]: Leaving directory 'U:/Second Year/EEE243/Lab3_RobotSing/cmake-build-release/CMakeFiles/CMakeTmp'
+
+

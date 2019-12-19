@@ -1,0 +1,1 @@
+C:\ProgramData\WinAVR-20100110\bin\avr-gcc.exe -mmcu=atmega328p -DF_CPU=2000000 -Os  -mmcu=atmega328p  -v CMakeFiles/cmTC_56616.dir/CMakeCCompilerABI.c.obj  -o cmTC_56616 

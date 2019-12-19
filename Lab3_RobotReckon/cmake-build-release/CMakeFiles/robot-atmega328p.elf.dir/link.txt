@@ -1,0 +1,1 @@
+C:\ProgramData\WinAVR-20100110\bin\avr-gcc.exe -mmcu=atmega328p -DF_CPU=2000000 -Os -O3 -DNDEBUG -mmcu=atmega328p -mmcu=atmega328p -Wl,-Map,robot-atmega328p.map -lc -lm -lgcc CMakeFiles/robot-atmega328p.elf.dir/src/main.c.obj  -o robot-atmega328p.elf -lpololu_atmega328p 

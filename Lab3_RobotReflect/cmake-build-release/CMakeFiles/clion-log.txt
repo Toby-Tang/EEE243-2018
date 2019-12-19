@@ -1,0 +1,12 @@
+"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=avr.cmake -G "CodeBlocks - MinGW Makefiles" C:\Users\s28297\CLionProjects\Lab3_RobotReflect
+-- The C compiler identification is GNU 4.3.3
+-- Check for working C compiler: C:/ProgramData/WinAVR-20100110/bin/avr-gcc.exe
+-- Check for working C compiler: C:/ProgramData/WinAVR-20100110/bin/avr-gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Set elf_file to robot-atmega328p.elf
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/s28297/CLionProjects/Lab3_RobotReflect/cmake-build-release

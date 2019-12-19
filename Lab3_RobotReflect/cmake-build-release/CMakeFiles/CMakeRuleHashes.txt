@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+ab7b8e67f8a9b69b010c10d8857875dd CMakeFiles/robot
+c3876e0a09f1ae3d30a1fa4fba37494d print-size-robot-atmega328p.elf
+5dc3f4ee2c7fc6f2fe96eab4666f0163 robot-atmega328p.hex
+771f1c3b21132443c9661bce2ad715ce robot-atmega328p.lst
